@@ -7,7 +7,7 @@ export default function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const [sentStatus, setSentStatus] = useState(false);
 
-  const contactEmail = 'raksha.mendon.dev@gmail.com';
+  const contactEmail = 'raks07.2020@gmail.com';
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(contactEmail);
@@ -91,16 +91,35 @@ export default function Contact() {
                 marginBottom: '36px',
               }}
             >
-              <Mail size={16} style={{ color: 'var(--accent-primary)' }} />
-              <span
-                className="font-mono"
+              <a
+                href={`mailto:${contactEmail}`}
                 style={{
-                  fontSize: '0.86rem',
-                  color: 'var(--text-primary)',
+                  display: 'inline-flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  color: 'inherit',
+                  textDecoration: 'none',
                 }}
+                title="Send email to raks07.2020@gmail.com"
               >
-                {contactEmail}
-              </span>
+                <Mail size={16} style={{ color: 'var(--accent-primary)' }} />
+                <span
+                  className="font-mono"
+                  style={{
+                    fontSize: '0.86rem',
+                    color: 'var(--text-primary)',
+                    transition: 'color var(--transition-fast)',
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = 'var(--accent-primary)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = 'var(--text-primary)';
+                  }}
+                >
+                  {contactEmail}
+                </span>
+              </a>
               <button
                 type="button"
                 onClick={handleCopyEmail}

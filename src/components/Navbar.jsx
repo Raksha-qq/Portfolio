@@ -160,12 +160,13 @@ export default function Navbar() {
           })}
 
           <a
-            href="#contact"
+            href="mailto:raks07.2020@gmail.com"
             className="btn-ghost"
             style={{
               padding: '8px 16px',
               fontSize: '0.78rem',
             }}
+            aria-label="Send email to raks07.2020@gmail.com"
           >
             <span>Connect</span>
             <ArrowUpRight size={14} />
@@ -229,12 +230,12 @@ export default function Navbar() {
           ))}
           <div style={{ paddingTop: '12px' }}>
             <a
-              href="#contact"
+              href="mailto:raks07.2020@gmail.com"
               onClick={() => setMobileMenuOpen(false)}
               className="btn-primary"
               style={{ width: '100%', justifyContent: 'center' }}
             >
-              <span>Initialize Contact</span>
+              <span>Connect (Send Mail)</span>
               <ArrowUpRight size={14} />
             </a>
           </div>

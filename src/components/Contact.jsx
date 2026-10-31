@@ -203,7 +203,7 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/raksha-mendon"
+                  href="https://www.linkedin.com/in/raksha-mendon-b300a3377/"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -239,7 +239,7 @@ export default function Contact() {
                         className="font-mono"
                         style={{ fontSize: '0.74rem', color: 'var(--text-secondary)' }}
                       >
-                        linkedin.com/in/raksha-mendon
+                        linkedin.com/in/raksha-mendon-b300a3377
                       </div>
                     </div>
                   </div>

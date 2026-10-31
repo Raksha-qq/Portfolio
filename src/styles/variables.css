@@ -1,0 +1,61 @@
+:root {
+  /* Color System */
+  --bg-primary: #101211;
+  --bg-surface: #141715;
+  --bg-surface-elevated: #1a1e1b;
+  --bg-surface-subtle: #121513;
+
+  /* Primary Accent: Acid Lime */
+  --accent-primary: #c5ff48;
+  --accent-primary-hover: #b4f535;
+  --accent-primary-dim: rgba(197, 255, 72, 0.12);
+  --accent-primary-glow: rgba(197, 255, 72, 0.25);
+  --accent-primary-border: rgba(197, 255, 72, 0.28);
+  --accent-primary-subtle: rgba(197, 255, 72, 0.04);
+
+  /* Text Hierarchy */
+  --text-primary: #f0f0eb;
+  --text-secondary: #8e948f;
+  --text-tertiary: #5e6460;
+  --text-muted: #424744;
+  --text-accent: #c5ff48;
+
+  /* Chrome / Technical Greys */
+  --chrome-100: #e2e5e3;
+  --chrome-200: #b8bcb9;
+  --chrome-300: #888e8a;
+  --chrome-400: #4a514d;
+  --chrome-500: #292f2c;
+  --chrome-600: #1e2220;
+
+  /* Borders & Grid Separators */
+  --border-subtle: rgba(240, 240, 235, 0.07);
+  --border-medium: rgba(240, 240, 235, 0.14);
+  --border-strong: rgba(240, 240, 235, 0.24);
+  --border-accent: rgba(197, 255, 72, 0.35);
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'DM Mono', monospace, ui-monospace;
+
+  /* Spacing Scale */
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 96px;
+  --space-5xl: 128px;
+
+  /* Layout */
+  --max-width: 1360px;
+  --nav-height: 72px;
+
+  /* Transitions */
+  --transition-fast: 160ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 480ms cubic-bezier(0.16, 1, 0.3, 1);
+}

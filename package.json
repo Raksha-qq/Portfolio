@@ -1,7 +1,9 @@
 {
-  "name": "portfolio",
+  "name": "r-systems-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Portfolio of Raksha Mendon — Systems Engineering, Computer Vision, Molecular Intelligence & Creative Technology",
+  "homepage": "https://portfolio-pi-azure-25.vercel.app/",
   "type": "module",
   "scripts": {
     "dev": "vite",

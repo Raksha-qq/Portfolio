@@ -52,6 +52,33 @@ A launch telemetry dashboard that aggregates worldwide rocket launch schedules, 
 - **Tech**: React, FastAPI, Python, Space Devs LL2 API, Vite.
 - **Live Platform**: [t-minus-one.vercel.app](https://t-minus-one.vercel.app)
 
+### 4. [DigitLocalize AI](https://github.com/Raksha-qq/DigitLocalize-AI) — Deep Learning Spatial Localization
+A multi-output convolutional neural network that simultaneously classifies handwritten digits and predicts continuous bounding-box spatial coordinates.
+- **Capabilities**: Multi-head CNN architecture, simultaneous class inference & bounding box localization, Intersection-over-Union (IoU) evaluation metric pipeline, synthetic canvas translation.
+- **Interactive Visual**: Real-time bounding box tracking and crosshair lock simulation with IoU score metrics.
+- **Tech**: Python, TensorFlow, Keras, Computer Vision, NumPy.
+
+### 5. [BlockCert](https://github.com/Raksha-qq/BlockCert) — Cryptographic Credential Ledger
+An end-to-end cryptographic verification platform for issuing, versioning, revoking, and independently verifying academic credentials.
+- **Capabilities**: Ed25519 digital signature generation, SHA-256 tamper-evident hash chain ledger, decentralized verification without centralized authority dependencies.
+- **Interactive Visual**: Live cryptographic hash-chain ledger simulation with real-time block seal validation.
+- **Tech**: Cryptography, Ed25519, SHA-256, Python, Distributed Systems.
+
+### 6. [HeadlineIQ](https://github.com/Raksha-qq/Headline_IQ) — Transfer-Learning NLP System
+A transfer-learning NLP system for real-time news topic classification powered by Google's Universal Sentence Encoder.
+- **Capabilities**: 512-dimensional sentence embedding vectors, 88.75% test accuracy on the AG News benchmark dataset, fine-tuned classification head.
+- **Interactive Visual**: High-dimensional semantic embedding vector projection and topic cluster rays.
+- **Tech**: Python, TensorFlow, TF Hub, Universal Sentence Encoder, NLP, TFDS.
+
+---
+
+## 📚 Additional Research & Open-Source Projects
+
+- **[PetVision AI](https://github.com/Raksha-qq/PetVision)**: CNN transfer-learning system for 23 cat & dog breeds using ResNet50 on ImageNet (86.85% test accuracy).
+- **[VisionMark / DeepLandmark](https://github.com/Raksha-qq/Deep_Landmark)**: Global landmark recognition using VGG19 on the Google Landmarks Dataset v2.
+- **[ChatBot Demo](https://github.com/Raksha-qq/ChatBot_2_Vercel_Check)**: Component-driven conversational React interface with cloud edge deployment.
+- **[WebWiz Gallery](https://github.com/Raksha-qq/WebWiz-Induction-Proj)**: Responsive CSS Grid and modern DOM scripting visual exhibition.
+
 ---
 
 ## 🎨 Architectural & Design Highlights
